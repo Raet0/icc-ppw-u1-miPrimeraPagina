@@ -48,7 +48,8 @@
   <dt>1) Crítica al sistema tecnológico:</dt>
   <dd>Kaczynski argumenta que la tecnología moderna controla a las personas.</dd>
 </dl>
+```
 
 ## Capturas de pantalla del proyecto final
 
-![alt text](<images/captura-primer-trabajo.png>)
+![captura](<images/captura-primer-trabajo.png>)
