@@ -51,4 +51,4 @@
 
 ## Capturas de pantalla del proyecto final
 
-![alt text](<images/Screenshot2025-10-14 171310.png>)
+![alt text](<images/captura-primer-trabajo.png>)
