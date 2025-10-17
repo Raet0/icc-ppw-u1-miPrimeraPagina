@@ -1,0 +1,188 @@
+/* 🌙 MODO OSCURO */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Corrige fondos de secciones, divs, tablas, etc. */
+body.dark-mode section,
+body.dark-mode div {
+  background: rgba(40, 40, 40, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow:
+    0 8px 32px rgba(255, 255, 255, 0.05),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+/* Encabezados */
+body.dark-mode h1,
+body.dark-mode h2 {
+  background-color: #2b2b2b;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+/* Texto general */
+body.dark-mode p,
+body.dark-mode dt,
+body.dark-mode dd,
+body.dark-mode a {
+  color: #f1f1f1;
+}
+
+/* Tablas */
+body.dark-mode table {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+body.dark-mode th {
+  background-color: #444;
+  color: #ffffff;
+}
+body.dark-mode td {
+  background-color: #222;
+  color: #e0e0e0;
+  border-color: #555;
+}
+body.dark-mode tr:hover {
+  background-color: #333;
+}
+
+/* Imagen centrada */
+body.dark-mode .img-centro {
+  border-color: #aaa;
+  background-color: #1e1e1e;
+}
+
+/* Botones */
+body.dark-mode button {
+  background-color: #0056b3;
+  color: #ffffff;
+}
+body.dark-mode button:hover {
+  background-color: #007BFF;
+}
+body.dark-mode #toggle-dark-mode {
+  background-color: #333;
+}
+body.dark-mode #toggle-dark-mode:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+body.dark-mode footer {
+  color: #ccc;
+}
+
+/* ------------------------------------------------------ */
+/* 💡 ESTILOS GENERALES (modo claro por defecto) */
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #007BFF;
+  color: #ffffff;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+#toggle-dark-mode {
+  position: fixed;
+  top: -8px;
+  right: -10px;
+  margin: 20px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: gray;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+#toggle-dark-mode:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+th, td {
+  border: 1px solid gray;
+  padding: 12px 15px;
+  text-align: left;
+}
+th {
+  background-color: #007BFF;
+  color: white;
+}
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+.img-centro {
+  display: block;
+  margin: 0 auto;
+  border: 8px solid #333;
+  border-radius: 4px;
+  padding: 0px;
+  background-color: white;
+}
+
+h1 {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 8px;
+  display: block;
+  text-align: center;
+  background-color: gray;
+  margin: 0 auto;
+  width: fit-content;
+}
+h2 {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: gray;
+  width: fit-content;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section, div {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  padding: 25px;
+  margin: 20px 0;
+}
+a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #007BFF;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+dt, dd {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

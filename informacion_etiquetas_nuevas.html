@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etiquetas Pagina Web</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <section id="etiquetasDescubiertas">
+      <div>
+        <h2>Etiquetas Usadas</h2>
+        <button id="toggle-dark-mode"><img src="images/luna.png" height="30" width="30"></button>
+        <p>
+          En esta sección podrás encontrar la explicación de las etiquetas, propiedades CSS y funciones JavaScript 
+          utilizadas en este sitio web, junto con su propósito y aplicación dentro de la página.
+        </p>
+      </div>
+    </section>
+  </header>
+
+  <!-- HTML -->
+  <section>
+    <h2>🧱 Estructura HTML utilizada</h2>
+    <table>
+      <tr>
+        <th>Etiqueta</th>
+        <th>Descripción</th>
+        <th>Uso en la página</th>
+      </tr>
+      <tr>
+        <td>&lt;!DOCTYPE html&gt;</td>
+        <td>Define el tipo de documento como HTML5.</td>
+        <td>Inicia el documento HTML.</td>
+      </tr>
+      <tr>
+        <td>&lt;html lang="es"&gt;</td>
+        <td>Contenedor raíz del documento con idioma español.</td>
+        <td>Encierra todo el contenido de la web.</td>
+      </tr>
+      <tr>
+        <td>&lt;head&gt;</td>
+        <td>Contiene los metadatos y configuraciones del sitio.</td>
+        <td>Incluye meta, título y enlace al CSS.</td>
+      </tr>
+      <tr>
+        <td>&lt;meta charset="UTF-8"&gt;</td>
+        <td>Permite mostrar caracteres especiales correctamente.</td>
+        <td>Evita errores con tildes y símbolos.</td>
+      </tr>
+      <tr>
+        <td>&lt;meta name="viewport"&gt;</td>
+        <td>Hace que la página sea adaptable a móviles.</td>
+        <td>Garantiza un diseño responsivo.</td>
+      </tr>
+      <tr>
+        <td>&lt;title&gt;</td>
+        <td>Establece el título visible en la pestaña del navegador.</td>
+        <td>“Mi Página Web”.</td>
+      </tr>
+      <tr>
+        <td>&lt;link rel="stylesheet"&gt;</td>
+        <td>Conecta el archivo CSS externo.</td>
+        <td>Aplica estilos desde “styles.css”.</td>
+      </tr>
+      <tr>
+        <td>&lt;header&gt;</td>
+        <td>Encabezado de la página.</td>
+        <td>Contiene el título principal y el botón del modo oscuro.</td>
+      </tr>
+      <tr>
+        <td>&lt;section&gt;</td>
+        <td>Agrupa contenido temático.</td>
+        <td>Usada para dividir secciones informativas.</td>
+      </tr>
+      <tr>
+        <td>&lt;h1&gt;, &lt;h2&gt;</td>
+        <td>Títulos y subtítulos.</td>
+        <td>Encabezados de secciones como “Síntesis” o “Links”.</td>
+      </tr>
+      <tr>
+        <td>&lt;p&gt;</td>
+        <td>Párrafo de texto.</td>
+        <td>Describe ideas o información adicional.</td>
+      </tr>
+      <tr>
+        <td>&lt;aside&gt;</td>
+        <td>Contenido complementario o contextual.</td>
+        <td>Detalles biográficos de Kaczynski.</td>
+      </tr>
+      <tr>
+        <td>&lt;img&gt;</td>
+        <td>Muestra imágenes.</td>
+        <td>Fotografía centrada con la clase <strong>.img-centro</strong>.</td>
+      </tr>
+      <tr>
+        <td>&lt;table&gt;, &lt;tr&gt;, &lt;td&gt;</td>
+        <td>Crea tablas y organiza datos en filas y columnas.</td>
+        <td>Usadas en los “Pros” y “Contras”.</td>
+      </tr>
+      <tr>
+        <td>&lt;dl&gt;, &lt;dt&gt;, &lt;dd&gt;</td>
+        <td>Lista de definiciones y descripciones.</td>
+        <td>Expone los puntos clave del manifiesto.</td>
+      </tr>
+      <tr>
+        <td>&lt;ul&gt;, &lt;li&gt;</td>
+        <td>Lista no ordenada.</td>
+        <td>Lista de links al final de la página.</td>
+      </tr>
+      <tr>
+        <td>&lt;a&gt;</td>
+        <td>Hipervínculo a otras páginas o sitios.</td>
+        <td>Conecta a la UPS, GitHub o esta sección.</td>
+      </tr>
+      <tr>
+        <td>&lt;footer&gt;</td>
+        <td>Pie de página.</td>
+        <td>Contiene información del autor.</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- CSS -->
+  <section>
+    <h2>🎨 Propiedades CSS utilizadas</h2>
+    <table>
+      <tr>
+        <th>Selector</th>
+        <th>Función</th>
+        <th>Descripción</th>
+      </tr>
+      <tr>
+        <td>body.dark-mode</td>
+        <td>Activa el modo oscuro.</td>
+        <td>Cambia el fondo a negro y el texto a blanco.</td>
+      </tr>
+      <tr>
+        <td>button</td>
+        <td>Estiliza los botones.</td>
+        <td>Color azul, bordes redondeados, padding y sin borde.</td>
+      </tr>
+      <tr>
+        <td>#toggle-dark-mode</td>
+        <td>Botón circular fijo.</td>
+        <td>Ubicado arriba a la derecha con icono centrado.</td>
+      </tr>
+      <tr>
+        <td>table, th, td</td>
+        <td>Diseño de tablas.</td>
+        <td>Sombras, bordes, alineación y colores.</td>
+      </tr>
+      <tr>
+        <td>.img-centro</td>
+        <td>Centra imágenes.</td>
+        <td>Usa <code>display: block</code> y <code>margin: auto</code> con borde y fondo blanco.</td>
+      </tr>
+      <tr>
+        <td>h1, h2</td>
+        <td>Encabezados con estilo.</td>
+        <td>Borde negro, fondo gris y texto centrado.</td>
+      </tr>
+      <tr>
+        <td>section, div</td>
+        <td>Fondo translúcido.</td>
+        <td>Uso de <code>backdrop-filter</code> y sombras para efecto “glass”.</td>
+      </tr>
+      <tr>
+        <td>p, a, dt, dd</td>
+        <td>Tipografía uniforme.</td>
+        <td>Fuente Georgia para estilo clásico y elegante.</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- JS -->
+  <section>
+    <h2>⚙️ Funciones JavaScript utilizadas</h2>
+    <dl>
+      <dt><strong>document.getElementById('toggle-dark-mode')</strong></dt>
+      <dd>Selecciona el botón del modo oscuro mediante su ID.</dd>
+
+      <dt><strong>addEventListener('click', ...)</strong></dt>
+      <dd>Escucha el evento de clic para ejecutar una función.</dd>
+
+      <dt><strong>document.body.classList.toggle('dark-mode')</strong></dt>
+      <dd>Agrega o elimina la clase <code>dark-mode</code> del cuerpo, cambiando entre modo claro y oscuro.</dd>
+    </dl>
+  </section>
+
+  <footer>
+    Rafael Prieto - Programación Web
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
